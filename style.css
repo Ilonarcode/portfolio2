@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+     font-family: "Roboto", sans-serif;
+}
+header{
+    width: 100%;
+    height: 500px;
+   background-image: linear-gradient(#0f2027, #203a43, #2c5364);
+    font-family: 'Broadway';
+    padding: 1px;
+    position: relative;
+}
+h1{
+    text-align: center;
+    margin-top: 200px;
+    color:white;
+    font-size: 70px; 
+    letter-spacing: 20px;
+    color:antiquewhite;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    position: fixed;
+    top:0;
+    left:0;
+}
+ul{
+   width: 100%;
+   height: 60px; 
+    text-align: center;
+    padding: 5px;
+}
+li{
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 5px;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  }
+li:hover{
+   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 0%, #FFCC70 100%);
+} 
+
+a{
+    display: block;
+    width: 120px;
+    height: 50px;
+    padding-top: 15px;
+    text-decoration: none;
+    color:white;
+    
+}
+.help{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #FBAB7E 0%, #F7CE68 100%);
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    margin: 20px;
+}
+.help a{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    padding-top:5px;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+div{
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+.foto1{
+    background-image: url(foto1.jpg);
+}
+.foto2{
+    background-image: url(foto2.jpg);
+}
+.foto3{
+    background-image: url(foto3.jpg);
+}
+.foto4{
+    background-image: url(foto4.jpg);   
+}
+.foto5{
+    background-image: url(foto1.jpg);
+}
+.foto6{
+    background-image: url(foto2.jpg);
+}
+
+section div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    background-image: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    color:antiquewhite;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    text-align: left;
+}
+main{
+    text-align: center;
+}
+p{
+    width: 40%;
+    display: inline-block;
+    margin: 40px;
+    vertical-align: top;
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Roboto';
+}
+
+footer{
+    width: 100%;
+    height: 200px; 
+    text-align: center;
+    background-image: linear-gradient(#0f2027, #203a43, #2c5364);
+}
+footer p{
+    margin-top: 100px;
+    text-align: center;
+    color:antiquewhite;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
